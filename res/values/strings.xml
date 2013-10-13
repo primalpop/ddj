@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">DDJ</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="vote_up_button">Vote Up</string>
+    <string name="vote_down_button">Vote Down</string>
+    <string name="song_metadata">Song Metadata</string>
 
 </resources>

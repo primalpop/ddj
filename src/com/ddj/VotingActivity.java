@@ -118,7 +118,6 @@ public class VotingActivity extends Activity {
 				mDelayHideTouchListener);
 		findViewById(R.id.vote_down_button).setOnTouchListener(
 				mDelayHideTouchListener);
-		
 	}
 
 	@Override

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_overlay"
+    android:background="@color/black_overlay"
     tools:context=".VotingActivity" >
 
     <!--
@@ -39,7 +39,7 @@
 
         <Button
             android:id="@+id/vote_up_button"
-            style="?buttonBarButtonStyle"
+            style="@color/white_overlay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/vote_up_button" />
@@ -58,7 +58,7 @@
 
         <Button
             android:id="@+id/vote_down_button"
-            style="?buttonBarButtonStyle"
+            style="@color/white_overlay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/vote_down_button" />

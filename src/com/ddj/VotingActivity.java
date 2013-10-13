@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -114,10 +115,24 @@ public class VotingActivity extends Activity {
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
 		// while interacting with the UI.
-		findViewById(R.id.vote_up_button).setOnTouchListener(
-				mDelayHideTouchListener);
-		findViewById(R.id.vote_down_button).setOnTouchListener(
-				mDelayHideTouchListener);
+		final Button voteUpButton = (Button) findViewById(R.id.vote_up_button);
+		voteUpButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+		final Button voteDownButton = (Button) findViewById(R.id.vote_down_button);
+		voteDownButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 	}
 
 	@Override

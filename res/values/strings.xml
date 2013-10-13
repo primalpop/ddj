@@ -5,5 +5,6 @@
     <string name="vote_up_button">Vote Up</string>
     <string name="vote_down_button">Vote Down</string>
     <string name="song_metadata">Song Metadata</string>
-
+    <string name="welcome_message">Hello, World! Welcome to the DDJ app&#8230;</string>
+    
 </resources>
